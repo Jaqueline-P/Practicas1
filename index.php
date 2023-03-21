@@ -11,9 +11,22 @@
 <body>
 <script scr="js/bootstrap.bundle.min.js"></script>
     <!-- navbar -->
-    <?php include "include/navbar.php";?>
+    <?php include "include/navbar.php"?>
     <!-- terminanavbar -->
-    <?php include "include/menu.php";?>
+    <?php include "include/menu.php"?>
    
+    <div class="col-lg-12">
+        <div class="row">
+            <h1 class="text-center py-2">Sumas</h1>
+       </div>
+       <div class="row">
+        <form action_ "<?php echo $_SERVER['PHP_SELF']?>"
+        <input type="text" name="caja1" required>
+        <input type="text" name="caja2" required>
+        <input type="submit" name="btn" value="calcular"> 
+       </form>
+       </div>
+   </div>
+
 </body>
 </html>
